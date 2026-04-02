@@ -1,0 +1,15 @@
+{
+  "districts": [
+    "Adilabad", "Kumuram Bheem Asifabad", "Mancherial", "Nirmal", "Nizamabad", "Jagtial", 
+    "Peddapalli", "Kamareddy", "Rajanna Sircilla", "Karimnagar", "Jayashankar Bhupalpally", 
+    "Sangareddy", "Medak", "Siddipet", "Jangaon", "Hanamkonda", "Warangal", "Mulugu", 
+    "Bhadradri Kothagudem", "Vikarabad", "Hyderabad", "Rangareddy", "Medchal Malkajgiri", 
+    "Yadadri Bhuvanagiri", "Mahabubabad", "Khammam", "Mahabubnagar", "Narayanpet", 
+    "Jogulamba Gadwal", "Wanaparthy", "Nagarkurnool", "Nalgonda", "Suryapet"
+  ],
+  "domains": ["Red", "Green", "Blue", "Yellow"],
+  "neighbors": {
+    "Hyderabad": ["Rangareddy", "Medchal Malkajgiri", "Sangareddy"],
+    "Rangareddy": ["Hyderabad", "Medchal Malkajgiri", "Yadadri Bhuvanagiri", "Nalgonda", "Nagarkurnool", "Mahabubnagar", "Vikarabad", "Sangareddy"]
+  }
+}

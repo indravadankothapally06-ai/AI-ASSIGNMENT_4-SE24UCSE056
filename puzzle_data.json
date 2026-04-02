@@ -1,0 +1,13 @@
+{
+  "variables": ["WA", "NT", "SA", "Q", "NSW", "V", "T"],
+  "domains": ["Red", "Green", "Blue"],
+  "neighbors": {
+    "WA": ["NT", "SA"],
+    "NT": ["WA", "SA", "Q"],
+    "SA": ["WA", "NT", "Q", "NSW", "V"],
+    "Q": ["NT", "SA", "NSW"],
+    "NSW": ["Q", "SA", "V"],
+    "V": ["SA", "NSW"],
+    "T": []
+  }
+}

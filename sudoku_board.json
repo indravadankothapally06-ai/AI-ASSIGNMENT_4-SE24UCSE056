@@ -1,0 +1,6 @@
+# Sudoku CSP Solver
+Formulates a standard 9x9 Sudoku puzzle as a Constraint Satisfaction Problem.
+
+**Usage:**
+Update `sudoku_board.json` with your specific puzzle (use 0 for empty spaces).
+Run: `python sudoku_csp.py`

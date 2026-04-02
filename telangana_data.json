@@ -1,0 +1,6 @@
+# Telangana Map Coloring
+Solves the map coloring problem for the 33 districts of Telangana using 4 colors (Four Color Theorem) via CSP. 
+
+**Usage:**
+Modify `telangana_data.json` to include all specific map borders.
+Run: `python telangana_csp.py`
